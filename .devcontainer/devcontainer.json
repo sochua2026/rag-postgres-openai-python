@@ -3,6 +3,9 @@
 {
 	"name": "rag-postgres-openai-python",
 //	"dockerComposeFile": "docker-compose.yaml",
+ // REQUIRED after removing dockerComposeFile
+   "image": "mcr.microsoft.com/devcontainers/python:3.11",
+
 //	"service": "app",
 //	"workspaceFolder": "/workspace",
 	"forwardPorts": [5432],

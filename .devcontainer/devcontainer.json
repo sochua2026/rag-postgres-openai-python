@@ -2,7 +2,7 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.0/containers/python-3
 {
 	"name": "rag-postgres-openai-python",
-	"dockerComposeFile": "docker-compose.yaml",
+//	"dockerComposeFile": "docker-compose.yaml",
 	"service": "app",
 	"workspaceFolder": "/workspace",
 	"forwardPorts": [5432],
@@ -17,7 +17,7 @@
 			"nodeGypDependencies": false
 		},
 		"ghcr.io/azure/azure-dev/azd:latest": {},
-		"ghcr.io/prulloac/devcontainer-features/ollama:1": {},
+//		"ghcr.io/prulloac/devcontainer-features/ollama:1": {},
 		// az CLI is helpful for being able to login correctly with DefaultAzureCredential:
 		"ghcr.io/devcontainers/features/azure-cli": {}
 	},

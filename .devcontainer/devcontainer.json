@@ -3,8 +3,8 @@
 {
 	"name": "rag-postgres-openai-python",
 //	"dockerComposeFile": "docker-compose.yaml",
-	"service": "app",
-	"workspaceFolder": "/workspace",
+//	"service": "app",
+//	"workspaceFolder": "/workspace",
 	"forwardPorts": [5432],
 	"portsAttributes": {
 		"5432": {"label": "PostgreSQL port", "onAutoForward": "silent"},
